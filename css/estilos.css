@@ -1,0 +1,104 @@
+.titulo {
+    width: 50%;
+    text-align: center;
+    font-family: 'Candara', sans-serif;
+    font-size: 3.5em;
+    margin: 10px;
+}
+.sub {text-align: center;text-decoration: underline;
+font-family: 'Candara', sans-serif;
+font-size: 3em;}
+.subt {text-align: center;text-decoration: underline;
+  font-family: 'Candara', sans-serif;
+  font-size: 2em;}
+.contenido  {font-size: 1.5em}
+.nuevos {font-style: italic;text-align: left;;}
+.nuevo {font-style: italic;text-align: left;;}
+.cuerpo { text-align: left;}
+h1, h2, h3 {
+  background-image: url("imagenes/bandera.jpg"); width: auto;
+}
+.iconowhats {width: 50px;
+            position: fixed;
+            bottom: 10px;
+            right: 15px;
+}
+.face { width: 45px;
+  position: absolute;
+  top:15px;
+  right: 15px;
+  display: flex; flex-wrap: wrap;
+
+  }
+  .insta { width: 45px;
+    position: absolute;
+    top:15px;
+    right:70px;
+    display: flex; flex-wrap: wrap;
+
+    }
+    .twitter { width: 60px;
+      position: absolute;
+      top:15px;
+      right:120px;
+      display: flex; flex-wrap: wrap;
+
+      }
+.header {border: 5px; black solid;
+display: flex; flex-wrap: wrap; }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA6C5B;
+    min-height: 20vh;
+}
+.section {width: 300px;
+  background-color: lightgrey
+  display: flex;flex-wrap: wrap;
+
+}
+.aside {width: 800px;
+  background-color:red
+  display: flex;flex-wrap: wrap;
+
+}
+
+.bandera {width: 110px;
+            position: absolute;
+      top: 15px;
+            left: 15px;
+
+                  }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FA6C5B;
+min-height: 20vh;
+}
+.objeto1 {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.objeto2 {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.objeto3 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 2em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
